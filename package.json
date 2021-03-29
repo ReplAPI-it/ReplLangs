@@ -1,0 +1,17 @@
+{
+  "name": "replangs",
+  "version": "1.0.0",
+  "description": "A Replit Project Language Finder",
+  "main": "index.js",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "colors": "^1.4.0",
+    "replapi-it": "^1.2.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "RayhanADev",
+  "license": "MIT"
+}
