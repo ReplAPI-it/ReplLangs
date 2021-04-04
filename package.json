@@ -6,6 +6,7 @@
   "dependencies": {
     "cli-progress": "^3.9.0",
     "colors": "^1.4.0",
+    "express": "^4.17.1",
     "replapi-it": "^1.2.10"
   },
   "devDependencies": {},
