@@ -14,4 +14,5 @@ This is a small terminal program made in NodeJS and uses my [ReplAPI.it](https:/
 
 By querying the Replit RESTful API, my package is able to pull the data, then I slice off the file extension, note the amount of their appearances, compare it against my "database" and switcheroo any familiar file extensions with their actual names and display the data in a graphically appeasing format!
 
-## TL;DR it's kewl
+# Update (4/3/2021)
+I created a small API to get the data, send `GET` requests to `https://replangs.rayhanadev.repl.co/[username]/[slug]` to get REPLangs data!
