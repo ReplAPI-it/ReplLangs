@@ -13,7 +13,7 @@ Available Endpoints include:
 The output is a JSON object with total language data and and array containing the counts of each language.
 
 ## Example
-Fetching: `https://langsapi.replapiit.repl.co/HelperFurret/Example-Project`
+Fetching: `https://langsapi.replapiit.repl.co/HelperFurret/Example-Project`  
 Returns:
 ```json
 {
