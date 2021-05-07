@@ -1,0 +1,12 @@
+# Directories
+node_modules/
+
+# Files
+.eslintrc.json
+.eslintignore
+.prettierrc
+.replapirc.json
+.replit
+.gitignore
+package.json
+package-lock.json
