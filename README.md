@@ -1,18 +1,25 @@
-Ever wanted to have one of those tiny little widgets on Github (weird that I say that on Github xD) that tell you what percent of your project is composed of what language? 
+> Part of the [ReplAPI.it Project](https://replit.com/@ReplAPIit)
 
-![githublangwidget](https://storage.googleapis.com/replit/images/1616977437260_52f1c294e2f1a448cae4677c19a02911.jpeg)
+# ReplLangs
+This is ReplLangs, and API that allows you to fetch more accurate language data from a Repl. It functions by scanning the file extension of every file in a Repl and formatting it to output data in a user-friendly manner!
 
-Well presenting...
+## Usage
+The API can be found at:
+`https:/langsapi.replapiit.repl.co`
 
-# **REPLangs**
+Available Endpoints include:
+* `/{username}/{repl-slug}`
 
-This is a small terminal program made in NodeJS and uses my [ReplAPI.it](https://github.com/RayhanADev/ReplAPI.it) to display your project stats :D!
+The output is a JSON object with total language data and and array containing the counts of each language.
 
-## Try it out [HERE](https://replit.com/@RayhanADev/REPLangs?embed=true)!
-
-![demo](https://storage.googleapis.com/replit/images/1616977517654_b8dd12f329a4cf2ea58a56be6e804e78.jpeg)
-
-By querying the Replit RESTful API, my package is able to pull the data, then I slice off the file extension, note the amount of their appearances, compare it against my "database" and switcheroo any familiar file extensions with their actual names and display the data in a graphically appeasing format!
-
-# Update (4/3/2021)
-I created a small API to get the data, send `GET` requests to `https://replangs.rayhanadev.repl.co/[username]/[slug]` to get REPLangs data!
+## Example
+Fetching: `https://langsapi.replapiit.repl.co/HelperFurret/Example-Project`
+Returns:
+```json
+{
+  "totalLanguages": 1,
+  "languageCounts": [
+    {"name":"javascript","count":1}
+  ]
+}
+```
