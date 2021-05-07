@@ -19,7 +19,10 @@ Returns:
 {
   "totalLanguages": 1,
   "languageCounts": [
-    {"name":"javascript","count":1}
+    { 
+      "name": "javascript", 
+      "count": 1
+    }
   ]
 }
 ```
