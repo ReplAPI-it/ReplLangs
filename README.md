@@ -1,7 +1,7 @@
 > Part of the [ReplAPI.it Project](https://replit.com/@ReplAPIit)
 
 # ReplLangs
-This is ReplLangs, and API that allows you to fetch more accurate language data from a Repl. It functions by scanning the file extension of every file in a Repl and formatting it to output data in a user-friendly manner!
+This is ReplLangs, an API that allows you to fetch more accurate language data from a Repl. It functions by scanning the file extension of every file in a Repl and formatting it to output data in a user-friendly manner!
 
 ## Usage
 The API can be found at:
