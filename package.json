@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
     "replapi-it": "^2.1.3"
   },
   "devDependencies": {

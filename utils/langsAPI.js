@@ -1,6 +1,6 @@
 import filenames from './filenames.js';
 
-export default function replLangs(data) {
+export default function langsAPI(data) {
 	if (data.name === 'NotFoundError') {
 		return {
 			error: "It seems like this Repl doesn't exist.",
