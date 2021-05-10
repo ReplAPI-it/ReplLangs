@@ -33,13 +33,13 @@ Returns:
 }
 ```
 
-[contributors-shield]: https://img.shields.io/github/contributors/RayhanADev/ReplLangs.svg?style=for-the-badge
-[contributors-url]: https://github.com/RayhanADev/ReplLangs/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/RayhanADev/ReplLangs.svg?style=for-the-badge
-[forks-url]: https://github.com/RayhanADev/ReplLangs/network/members
-[stars-shield]: https://img.shields.io/github/stars/RayhanADev/ReplLangs.svg?style=for-the-badge
-[stars-url]: https://github.com/RayhanADev/ReplLangs/stargazers
-[issues-shield]: https://img.shields.io/github/issues/RayhanADev/ReplLangs.svg?style=for-the-badge
-[issues-url]: https://github.com/RayhanADev/ReplLangs/issues
-[license-shield]: https://img.shields.io/github/license/RayhanADev/ReplLangs.svg?style=for-the-badge
-[license-url]: https://github.com/RayhanADev/ReplLangs/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ReplAPI-it/ReplLangs.svg?style=for-the-badge
+[contributors-url]: https://github.com/ReplAPI-it/ReplLangs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ReplAPI-it/ReplLangs.svg?style=for-the-badge
+[forks-url]: https://github.com/ReplAPI-it/ReplLangs/network/members
+[stars-shield]: https://img.shields.io/github/stars/ReplAPI-it/ReplLangs.svg?style=for-the-badge
+[stars-url]: https://github.com/ReplAPI-it/ReplLangs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ReplAPI-it/ReplLangs.svg?style=for-the-badge
+[issues-url]: https://github.com/ReplAPI-it/ReplLangs/issues
+[license-shield]: https://img.shields.io/github/license/ReplAPI-it/ReplLangs.svg?style=for-the-badge
+[license-url]: https://github.com/ReplAPI-it/ReplLangs/blob/master/LICENSE.txt
