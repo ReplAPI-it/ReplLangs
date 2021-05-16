@@ -3,13 +3,15 @@ import filenames from './filenames.js';
 export default function langsAPI(data) {
 	if (data.name === 'NotFoundError') {
 		return {
-			error: "It seems like this Repl doesn't exist.",
+			status: 403,
+			data: { error: "It seems like this Repl doesn't exist." },
 		};
 	}
 
 	if (data.fileNames.length === 0) {
 		return {
-			error: "It seems like this Repl doesn't have files.",
+			status: 403,
+			data: { error: "It seems like this Repl doesn't have files." },
 		};
 	}
 
@@ -57,5 +59,8 @@ export default function langsAPI(data) {
 		languageCounts: finalData,
 	};
 
-	return result;
+	return {
+		status: 200,
+		data: { result },
+	};
 }

@@ -5,7 +5,7 @@ import langsAPI from './utils/langsAPI.js';
 
 const app = express();
 const replapi = ReplAPI({
-	username: 'RayhanADev',
+	username: 'ReplAPIit',
 });
 
 app.use(
@@ -23,8 +23,9 @@ app.get('/', (req, res) => {
 app.get('/:username/:slug', async (req, res) => {
 	const repl = new replapi.Repl(req.params.username, req.params.slug);
 	const info = await repl.replRestfulData();
-
-	res.end(JSON.stringify(langsAPI(info)));
+	const { status, data } = langsAPI(info);
+	
+	res.status(status).end(JSON.stringify(data));
 });
 
 app.listen(3000);
